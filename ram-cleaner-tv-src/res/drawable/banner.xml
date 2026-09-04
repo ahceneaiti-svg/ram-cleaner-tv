@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <path android:fillColor="#0E1216" android:pathData="M0,0h320v180h-320z" />
+
+    <!-- anneau facon jauge -->
+    <path
+        android:strokeColor="#242D37"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,132 a44,44 0 1 1 40,0" />
+    <path
+        android:strokeColor="#5DD39E"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,132 a44,44 0 0 1 -6,-64" />
+
+    <!-- barres memoire -->
+    <path android:fillColor="#5DD39E" android:pathData="M66,78h8v24h-8z" />
+    <path android:fillColor="#5DD39E" android:pathData="M78,72h8v30h-8z" />
+    <path android:fillColor="#5DD39E" android:pathData="M90,84h8v18h-8z" />
+
+    <!-- wordmark -->
+    <path android:fillColor="#F2F5F7" android:pathData="M150,70h6v40h-6zM150,70h20a10,10 0 0 1 0,20h-20v-6h20a4,4 0 0 0 0,-8h-20zM164,88l10,22h-7l-9,-20z" />
+    <path android:fillColor="#F2F5F7" android:pathData="M182,70l12,40h-6l-2,-8h-12l-2,8h-6l12,-40zM185,78l-4,16h9z" />
+    <path android:fillColor="#F2F5F7" android:pathData="M206,70h6l8,22 8,-22h6v40h-6v-24l-6,16h-4l-6,-16v24h-6z" />
+    <path android:fillColor="#93A1AD" android:pathData="M150,120h96v3h-96z" />
+    <path android:fillColor="#93A1AD" android:pathData="M150,120h96v3h-96z" />
+</vector>

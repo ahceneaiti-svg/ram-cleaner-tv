@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nettoyeur RAM TV</string>
+    <string name="clean">Nettoyer la RAM</string>
+    <string name="scanning">Nettoyage en cours...</string>
+    <string name="manage_apps">Gerer les apps</string>
+
+    <string name="card_ram">RAM</string>
+    <string name="mem_total">Memoire totale</string>
+    <string name="mem_usage">Memoire utilisee</string>
+    <string name="dash_pct">––</string>
+    <string name="free_ram">Libre : %1$s</string>
+    <string name="low_mem">Memoire faible</string>
+    <string name="pct_used">%1$d %% utilises</string>
+    <string name="killed_apps">%1$d applications stoppees</string>
+    <string name="freed_ram">RAM recuperee : %1$s</string>
+
+    <string name="btn_ram">Consommation RAM</string>
+    <string name="ram_table_title">Consommation RAM en temps reel</string>
+    <string name="ram_table_hint">Mise a jour toutes les 2 s</string>
+    <string name="ram_col_app">Application</string>
+    <string name="ram_col_mem">RAM</string>
+    <string name="ram_col_pct">Part</string>
+    <string name="ram_loading">Lecture de la memoire...</string>
+    <string name="ram_need_root">Acces complet indisponible (root requis) : affichage partiel.</string>
+    <string name="ram_summary">%1$d processus  •  %2$s total</string>
+    <string name="apps_title">Apps preinstallees</string>
+    <string name="loading">Chargement...</string>
+    <string name="enable">Activer</string>
+    <string name="disable">Desactiver</string>
+    <string name="stop">Arreter</string>
+    <string name="stopped">%1$s arretee</string>
+    <string name="open_settings">Ouvrir la fiche</string>
+    <string name="no_owner_hint">Mode admin non actif. Les boutons ouvrent la fiche systeme (Desactiver manuel). Pour le controle direct dans l\'app, lancer une fois via ADB :\n\nadb shell dpm set-device-owner com.aia.ramcleaner/.AdminReceiver\n\n(aucun compte Google ne doit etre ajoute sur la box)</string>
+    <string name="owner_active">Mode admin actif : desactivation directe possible.</string>
+    <string name="recommended">bloat</string>
+</resources>
